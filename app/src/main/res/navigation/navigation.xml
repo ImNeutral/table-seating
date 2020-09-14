@@ -18,5 +18,9 @@
         android:id="@+id/customerListFragment"
         android:name="com.example.tableseatingtest1.ui.customer.CustomerListFragment"
         android:label="fragment_customer_list"
-        tools:layout="@layout/fragment_customer_list" />
+        tools:layout="@layout/fragment_customer_list" >
+        <argument
+            android:name="tableNo"
+            app:argType="long" />
+    </fragment>
 </navigation>

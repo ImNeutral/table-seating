@@ -6,15 +6,28 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="TableSeatingDatabaseTest" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="CustomerListViewModel" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd4ac3f6-ea9d-4495-bd02-35117bd0bb8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_gridlayout_gridlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/ui/customer/CustomerListViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/overflow_menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/database/dao/CustomerDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/database/dao/CustomerDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/ui/customer/CustomerListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/ui/customer/CustomerListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/ui/customer/CustomerListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/ui/customer/CustomerListViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/ui/main/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/ui/main/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customer_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customer_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +37,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="R3CM40J15RD" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -40,8 +54,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="navigationResourceFile" />
-        <option value="Kotlin Class" />
         <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -315,10 +330,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="196" y="96" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1600058411376" />
-    <state x="471" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1600014958363">
+    <state x="471" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1600064407964">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="471" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600014958363" />
+    <state x="471" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600064407964" />
     <state x="510" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600006763460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -331,34 +346,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="259" y="122" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1600006923523" />
-    <state x="259" y="119" key="AndroidCreateResourceFileDialog" timestamp="1600006932910">
+    <state x="259" y="119" key="AndroidCreateResourceFileDialog" timestamp="1600059429486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="259" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1600006932910" />
-    <state x="537" y="177" key="AndroidCreateXmlResourceDialog" timestamp="1600004851805">
+    <state x="259" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1600059429486" />
+    <state x="537" y="177" key="AndroidCreateXmlResourceDialog" timestamp="1600074219929">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="537" y="177" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1600004851805" />
+    <state x="537" y="177" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1600074219929" />
     <state x="459" y="119" key="FileChooserDialogImpl" timestamp="1600055621684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600055621684" />
-    <state width="1299" height="303" key="GridCell.Tab.0.bottom" timestamp="1600016414166">
+    <state width="1323" height="228" key="GridCell.Tab.0.bottom" timestamp="1600092851844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1299" height="303" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600016414166" />
-    <state width="1299" height="303" key="GridCell.Tab.0.center" timestamp="1600016414166">
+    <state width="1323" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600092851844" />
+    <state width="1323" height="228" key="GridCell.Tab.0.center" timestamp="1600092851843">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1299" height="303" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600016414166" />
-    <state width="1299" height="303" key="GridCell.Tab.0.left" timestamp="1600016414165">
+    <state width="1323" height="228" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600092851843" />
+    <state width="1323" height="228" key="GridCell.Tab.0.left" timestamp="1600092851843">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1299" height="303" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600016414165" />
-    <state width="1299" height="303" key="GridCell.Tab.0.right" timestamp="1600016414166">
+    <state width="1323" height="228" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600092851843" />
+    <state width="1323" height="228" key="GridCell.Tab.0.right" timestamp="1600092851844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1299" height="303" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600016414166" />
+    <state width="1323" height="228" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600092851844" />
+    <state x="429" y="74" key="RollbackChangesDialog" timestamp="1600083889746">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="429" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600083889746" />
     <state x="376" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1600000752571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -367,6 +386,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="335" y="166" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600007622966" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1600078065843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600078065843" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

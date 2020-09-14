@@ -16,6 +16,7 @@
 
 package com.example.tableseatingtest1.database.dao
 
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
@@ -37,9 +38,18 @@ interface CustomerDao {
     @Query("DELETE FROM customer")
     fun clear()
 
-    @Query("SELECT * FROM customer ORDER BY id DESC")
-    fun getAllCustomers(): List<Customer>
+    @Query("DELETE FROM customer WHERE table_id=:tableId")
+    fun clearByTableNo(tableId: Long)
+
+    @Query("SELECT * FROM customer ORDER BY name DESC")
+    fun getAllCustomers(): LiveData<List<Customer>>
 
     @Query("SELECT * FROM customer WHERE table_id=:tableId")
-    fun getAllCustomersFromTable(tableId: Long): List<Customer>
+    fun getAllCustomersFromTable(tableId: Long): LiveData<List<Customer>>
+
+    @Query("SELECT count(*) FROM customer WHERE table_id=:tableId")
+    fun getCustomerCountOnTable(tableId: Long): LiveData<Int>
+
+//    @Query("SELECT table_id, count(id) FROM customer GROUP BY table_id")
+//    fun getCustomerCountPerTable(): Map<Long, Long>
 }
