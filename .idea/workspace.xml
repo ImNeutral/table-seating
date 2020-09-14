@@ -10,7 +10,12 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd4ac3f6-ea9d-4495-bd02-35117bd0bb8e" name="Default Changelist" comment="" />
+    <list default="true" id="bd4ac3f6-ea9d-4495-bd02-35117bd0bb8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/ui/main/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1/ui/main/MainFragment.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
@@ -51,9 +59,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/tableseatingtest1" />
-    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TableSeatingTest1" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -302,6 +311,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="196" y="96" key="#PSD" timestamp="1600058411376">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="196" y="96" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1600058411376" />
     <state x="471" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1600014958363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -326,10 +339,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="537" y="177" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1600004851805" />
-    <state x="459" y="119" key="FileChooserDialogImpl" timestamp="1600001784757">
+    <state x="459" y="119" key="FileChooserDialogImpl" timestamp="1600055621684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600001784757" />
+    <state x="459" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600055621684" />
     <state width="1299" height="303" key="GridCell.Tab.0.bottom" timestamp="1600016414166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
