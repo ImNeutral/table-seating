@@ -40,6 +40,18 @@ class CustomerListViewModel(
         }
     }
 
+    fun clearAllCustomers() {
+        uiScope.launch {
+            clearAllCustomersInBackground()
+        }
+    }
+
+    suspend fun clearAllCustomersInBackground() {
+        withContext(Dispatchers.IO) {
+            database.clear()
+        }
+    }
+
     fun clearCustomers() {
         uiScope.launch {
             clearCustomersInBackground()
@@ -59,31 +71,5 @@ class CustomerListViewModel(
     fun initAllCustomers() {
         allCustomers = database.getAllCustomers()
     }
-
-    /*fun initTableSizes() {
-        uiScope.launch {
-            initTableSizesNow()
-        }
-    }
-
-    suspend fun initTableSizesNow() {
-        withContext(Dispatchers.IO) {
-            //var tableSizesLocal = List<LiveData<Int>>
-            for(tableIdLocal in 1..4) {
-                //database.getCustomerCountOnTable(1).toLong()
-                tableSizes.add(database.getCustomerCountOnTable(1))
-            }
-            //tableSizes = tableSizesLocal
-        }
-    }*/
-//
-//    suspend fun initTableSizesNow() {
-//        withContext(Dispatchers.IO) {
-//            for (innerTableId in 0..4) {
-//                var tableSize = database.getCustomerCountOnTable(innerTableId.toLong())
-//                var mapCount = mapOf<>()
-//            }
-//        }
-//    }
 }
 

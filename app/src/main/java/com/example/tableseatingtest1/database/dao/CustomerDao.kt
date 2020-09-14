@@ -50,6 +50,4 @@ interface CustomerDao {
     @Query("SELECT count(*) FROM customer WHERE table_id=:tableId")
     fun getCustomerCountOnTable(tableId: Long): LiveData<Int>
 
-//    @Query("SELECT table_id, count(id) FROM customer GROUP BY table_id")
-//    fun getCustomerCountPerTable(): Map<Long, Long>
 }
