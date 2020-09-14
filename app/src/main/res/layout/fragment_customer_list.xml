@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.customer.CustomerListFragment">
+
+        <EditText
+            android:id="@+id/customerNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/customer_name"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/addCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_customer" />
+
+        <TextView
+            android:id="@+id/customerListTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_list"
+            android:textAlignment="center" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/customerNameList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </ScrollView>
+    </LinearLayout>
+</layout>

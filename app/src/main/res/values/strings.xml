@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TableSeatingTest1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next_fragment">Next Fragment</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="customer_list">Customer List</string>
+</resources>
